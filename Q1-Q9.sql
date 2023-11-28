@@ -28,5 +28,5 @@ select year, count(*) from car_dekho where fuel = "CNG" group by year;
 -- year which had more than 100 cars -- 
 select year, count(*) from car_dekho group by year having count(*)>100;
 
--- count of all cars between 2015 and 2023 --
-select * from car_dekho where year between 2015 and 2023;
+-- count of all cars between 2022 and 2023 --
+select * from car_dekho where year between 2022 and 2023;
